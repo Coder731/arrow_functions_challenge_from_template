@@ -23,7 +23,57 @@ Your result should look like the image below when the string "english" is passed
 
 ### Code needed to run program in liinux terminal
 
-node array-functions2.js
+node arrow-functions2.js
+
+## Debug
+### Issue 1
+#### Title:
+ Could not run js file on node server
+#### How to generate problem: (code and result in terminal shown below)
+
+
+```
+gitpod /workspace/arrow_functions_challenge_from_template (main) $ node array-functions2.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/workspace/arrow_functions_challenge_from_template/array-functions2.js'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+gitpod /workspace/arrow_functions_challenge_from_template (main) $ node array-functions.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/workspace/arrow_functions_challenge_from_template/array-functions.js'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+```
+
+
+#### Best Result when Googled problem
+
+- [The error is usually caused by a non-existent file](https://github.com/nodejs/help/issues/3105)
+
+#### Solution
+Change file name call from array to arrow
+i.e. 
+arrow-functions2.js
+
+#### Incidental learnings along the way
+-[Search terms: "how insert code snippet in readme"](https://www.google.com/search?q=how+insert+code+snippet+in+readme&oq=how+insert+code+snippet+in+readme&aqs=chrome..69i57j0i22i30j0i390j69i64.5446j0j7&sourceid=chrome&ie=UTF-8)
+- [Answer: You can create fenced code blocks by placing triple backticks ``` before and after the code block. We recommend placing a blank line before and after code ...](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
 
 ## Pseudo code
 So it takes input from user
