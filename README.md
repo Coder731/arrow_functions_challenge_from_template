@@ -75,6 +75,9 @@ arrow-functions2.js
 -[Search terms: "how insert code snippet in readme"](https://www.google.com/search?q=how+insert+code+snippet+in+readme&oq=how+insert+code+snippet+in+readme&aqs=chrome..69i57j0i22i30j0i390j69i64.5446j0j7&sourceid=chrome&ie=UTF-8)
 - [Answer: You can create fenced code blocks by placing triple backticks ``` before and after the code block. We recommend placing a blank line before and after code ...](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
 
+#### Correct code
+node array-functions.js
+
 ## Pseudo code
 So it takes input from user
 
