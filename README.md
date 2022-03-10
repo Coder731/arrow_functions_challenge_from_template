@@ -146,6 +146,13 @@ changed code automatically to be ES6 (I think) compliant:
 from this:
 
 ```
+const readline = require('readline');
+
+```
+
+through this:
+
+```
 import * as readline from 'readline';
 ```
 
