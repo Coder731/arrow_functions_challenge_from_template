@@ -98,6 +98,9 @@ Equivalent of prompt in node js
 
 -[How do I prompt users for input from a command-line script?](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
 
+#### Solution
+The above solved the problem of taking user input without using prompt, in node js.
+
 ### Issue 3:
 
 ## Pseudo code
