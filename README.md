@@ -7,7 +7,7 @@ To use this repository:
 
 
 # Own
-## 
+## Question:
 
 In this challenge use both types, and unless stated, choose the type you are most comfortable with.
  
@@ -18,6 +18,12 @@ Log values to the terminal
 Your result should look like the image below when the string "english" is passed into the function
 
 78.5
+
+## "Pre-requisites"
+
+### Code needed to run program in liinux terminal
+
+node array-functions2.js
 
 ## Pseudo code
 So it takes input from user
