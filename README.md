@@ -78,6 +78,28 @@ arrow-functions2.js
 #### Correct code
 node arrow-functions.js
 
+
+
+### Issue 2:
+#### Title
+Prompt not defined
+
+#### References
+
+- [Reason: "nodeJS use Google’s V8 engine, although similar to the JS engine of the chrome browser, its not identical."](https://discuss.codecademy.com/t/prompt-is-not-defined/453608)
+Prompt does not exist in node js.
+
+####  Attempted Solution
+
+##### Search
+Equivalent of prompt in node js
+
+##### Result
+
+-[How do I prompt users for input from a command-line script?](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
+
+### Issue 3:
+
 ## Pseudo code
 So it takes input from user
 
