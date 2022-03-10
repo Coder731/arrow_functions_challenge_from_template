@@ -126,7 +126,7 @@ as this is average english score for all students
 ### Attempt 2
 Where from here?
 #### Step 1:
-Tidy code by reemoving commented elements that definitely will not be used.
+Tidy code by removing commented elements that definitely will not be used.
 
 #### Step2:
 Add new code into original thoughts / plan under relevant comment(s)
@@ -135,3 +135,5 @@ Add new code into original thoughts / plan under relevant comment(s)
 Tidy and order code into plan
 ##### Reference
 -[Clean Code initiative: "once the code works, that's when you have to clean it"](https://youtu.be/7EmboKQH8lM?t=1858)
+
+#### Step 4:
