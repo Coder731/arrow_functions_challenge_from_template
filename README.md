@@ -134,7 +134,7 @@ Add new code into original thoughts / plan under relevant comment(s)
 #### Step 3:
 Tidy and order code into plan
 ##### Reference
--[Clean Code initiative: "once the code works, that's when you have to clean it"](https://youtu.be/7EmboKQH8lM?t=1858)
+- [Clean Code initiative: "once the code works, that's when you have to clean it"](https://youtu.be/7EmboKQH8lM?t=1858)
 
 #### Step 4:
 change the input to something meaningful
