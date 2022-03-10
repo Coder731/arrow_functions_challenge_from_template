@@ -103,7 +103,8 @@ The above solved the problem of taking user input without using prompt, in node 
 
 ### Issue 3:
 
-## Pseudo code
+## Working through solution
+### Attempt 1 Pseudo code
 So it takes input from user
 
 passes it into program
@@ -122,3 +123,5 @@ as this is average english score for all students
 
 3 students
 
+### Attempt 2
+Where from here?
