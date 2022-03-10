@@ -73,7 +73,7 @@ rl.on('close', function () {
 
 
 // So it takes input from user
-let input = input();
+// let input = input();
 // passes it into program
 
 // uses the key
