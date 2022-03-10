@@ -138,3 +138,21 @@ Tidy and order code into plan
 
 #### Step 4:
 change the input to something meaningful
+#### Step 4.1:
+ai kite or emmet extension showed triple dot underline and when clicked
+a light bulb,
+and when the light bulb was clicked,
+changed code automatically to be ES6 (I think) compliant: 
+from this:
+
+```
+import * as readline from 'readline';
+```
+
+to this:
+
+```
+import { createInterface } from 'readline';
+```
+
+which  explains why / where createInterface comes from on the next line

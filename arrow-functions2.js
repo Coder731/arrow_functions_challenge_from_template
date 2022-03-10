@@ -51,7 +51,7 @@ console.log(students.subjects)
 
     // prompt 2.0 (see Debug Issue 2 in README)
     // https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/
-    const readline = require('readline');
+    import * as readline from 'readline';
     const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
