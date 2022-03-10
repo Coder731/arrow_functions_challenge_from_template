@@ -68,10 +68,6 @@ rl.on('close', function () {
 });
 
 
-// var name = window.prompt("Enter your name: ");
-// alert("Your name is " + name);
-
-
 // So it takes input from user
 // let input = input();
 // passes it into program

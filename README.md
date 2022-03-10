@@ -125,3 +125,8 @@ as this is average english score for all students
 
 ### Attempt 2
 Where from here?
+#### Step 1:
+Tidy code by reemoving commented elements that definitely will not be used.
+
+#### Step2:
+Add new code into original thoughts / plan under relevant comment(s)
