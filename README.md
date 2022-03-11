@@ -284,7 +284,11 @@ ReferenceError: createInterface is not defined
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
 ```
-    
+
+## Next step
+Check reference to see if createInterface was declared earlier on the original site and that the declaration was not copied into this code base.  
+
+Thesis question: Is createInterface used without being declared in this code base, and this is what is causing the error? 
 
 ## Active Layer Above
 
