@@ -1,4 +1,4 @@
-// ## New approach: simple, non gerneral, specific:
+// ## New approach: simple, non general, specific:
 // ### Step 1:
 // take user input, using previously done code:
 
