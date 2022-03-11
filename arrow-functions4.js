@@ -24,7 +24,7 @@ let students = [
 
 // Answer:
 
-// ## New approach: simple, non general, specific:
+// ## New simple specific approach :
 // ### Step 1:
 // take user input, using previously done code:
 
