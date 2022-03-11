@@ -181,9 +181,11 @@ manual way to do just
 the addition, not the average yet.... is:
 
 ### Step 3: as an interim / prelude stepL: (declare variables) :
-a = students.key  -> value[0]
-b = students.key  -> value[1]
-c = students.key  -> value[2]
+a = students.key  -> value[0];
+
+b = students.key  -> value[1];
+
+c = students.key  -> value[2];
 
 ### Step 4: 
 take sum
