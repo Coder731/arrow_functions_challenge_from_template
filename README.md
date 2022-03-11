@@ -167,7 +167,7 @@ import { createInterface } from 'readline';
 
 which  explains why / where createInterface comes from on the next line
 
-## New approach: simple, non gerneral, specific:
+## New approach: simple, non general, specific:
 ### Step 1:
 take user input, using previously done code
 ->  tidy it up
