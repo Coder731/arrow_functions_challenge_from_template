@@ -169,7 +169,7 @@ which  explains why / where createInterface comes from on the next line
 
 ## New approach: simple, non general, specific:
 ### Step 1:
-take user input, using previously done code
+take user input, using previously done code (from arrow-functions2.js)
 ->  tidy it up
     so it takes
     english
