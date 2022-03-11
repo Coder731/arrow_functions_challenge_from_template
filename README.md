@@ -326,7 +326,7 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
 
     Run:
 
-      - arrow-functions.js
+  #### arrow-functions.js
 
         - Complete
 
@@ -344,7 +344,7 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
             undefined
             ```
       
-      - arrow-functions2.js
+  #### Thoughtsarrow-functions2.js
         - Complete (error)
   #### Output:
 
@@ -366,7 +366,7 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
                 at node:internal/main/run_main_module:17:47
             ```
 
-      - arrow-functions3.js
+  #### arrow-functions3.js
             - Complete (error)
   #### Output:
   
@@ -385,7 +385,7 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
                 at node:internal/main/run_main_module:17:47
             ```
 
-      - arrow-functions4.js  
+  #### arrow-functions4.js  
         - Complete (error)
 
   #### Output
