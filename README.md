@@ -417,6 +417,9 @@ now the error is gone from:
                 import { createInterface } from 'readline';
                 ^^^^^^
 ```
+
+i.e. :
+
                 import line syntax bug
 
 
