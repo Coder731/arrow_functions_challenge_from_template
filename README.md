@@ -377,6 +377,21 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
             at node:internal/main/run_main_module:17:47
         ```
 
+#### Interim correction:
+change:
+
+```
+import { createInterface } from 'readline';
+```
+
+to
+
+```
+const readline = require('readline');
+```
+
+#### Q3
+
 Q3/ If so, are there differences? 
 Q4/ What are they? 
 
