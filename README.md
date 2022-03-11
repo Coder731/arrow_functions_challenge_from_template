@@ -285,10 +285,13 @@ ReferenceError: createInterface is not defined
     at node:internal/main/run_main_module:17:47
 ```
 
-## Next step
+## 11Mar2022 2020h
 Check reference to see if createInterface was declared earlier on the original site and that the declaration was not copied into this code base.  
 
 Thesis question: Is createInterface used without being declared in this code base, and this is what is causing the error? 
+
+## 11Mar2020 2028h
+What is reference that createInterface came from?
 
 ## Active Layer Above
 
