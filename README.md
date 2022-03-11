@@ -412,7 +412,14 @@ ReferenceError: createInterface is not defined
 #### post interim change
 
 now the error is gone from:
-x
+
+                ```
+                import { createInterface } from 'readline';
+                ^^^^^^
+                ```
+                import line syntax bug
+
+
 to 
 createInterface
 error in js file 2,
