@@ -462,6 +462,14 @@ Q3/ If so, are there differences?
 Q4/ What are they? 
 
 
+#### Review, plan next step
+
+```
+const readline = require('readline');
+```
+
+is the line of code in question
+
 ## Active Layer Above
 
 #### Aside
