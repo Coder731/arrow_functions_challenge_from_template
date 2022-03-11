@@ -411,7 +411,7 @@ ReferenceError: createInterface is not defined
 
 #### post interim change
 
-now the error is gone from:
+now the error has gone from:
 
 ```
                 import { createInterface } from 'readline';
