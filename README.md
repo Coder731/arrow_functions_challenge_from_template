@@ -133,6 +133,15 @@ SyntaxError: Cannot use import statement outside a module
 This error seems to be generated from using import
 Note: this use of import may have been advised by ai or taken from an online solution
 
+#### Solution attempt
+revert to old code from site referenced previously:
+line in question reverted to:
+
+```
+const readline = require('readline');
+```
+
+
 ## Working through solution
 ### Attempt 1 Pseudo code
 So it takes input from user
