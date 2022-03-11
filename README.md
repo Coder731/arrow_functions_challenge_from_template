@@ -228,6 +228,34 @@ take sum
 divide by 3
 = average (avg)
 
+## 11Mar2022 1215h
+Ok so, 
+
+arrow-functions2.js
+and
+arrow-functions3.js
+
+don't run (fully?) have errors
+
+but,
+arrow-functions.js runs.
+
+### arrow-functions.js output
+
+```
+8
+10
+Hello there!!
+hello
+<p>
+        This is a multiline string!
+    </p>
+undefined
+undefined
+```
+
+## Active Layer Above
+
 #### Aside
 
 Pressing shift and . on keyboard while on this github page opens vscode in a browser in a new tab, and seems to allow editing directly in the browser without GitPod.
