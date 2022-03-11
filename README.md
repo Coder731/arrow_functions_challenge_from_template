@@ -344,7 +344,7 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
             undefined
             ```
       
-  #### Thoughtsarrow-functions2.js
+  #### arrow-functions2.js
         - Complete (error)
   #### Output:
 
