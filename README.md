@@ -339,7 +339,44 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
             ```
 
       - arrow-functions3.js
+            - Complete (error)
+  #### Output:
+  
+            ```
+            /workspace/arrow_functions_challenge_from_template/arrow-functions3.js:48
+                    const rl = createInterface({
+                              ^
+
+            ReferenceError: createInterface is not defined
+                at Object.<anonymous> (/workspace/arrow_functions_challenge_from_template/arrow-functions3.js:48:20)
+                at Module._compile (node:internal/modules/cjs/loader:1101:14)
+                at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+                at Module.load (node:internal/modules/cjs/loader:981:32)
+                at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+                at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+                at node:internal/main/run_main_module:17:47
+            ```
+
       - arrow-functions4.js  
+        - Complete (error)
+
+  #### Output
+
+        ```
+        /workspace/arrow_functions_challenge_from_template/arrow-functions4.js:33
+                const rl = createInterface({
+                          ^
+
+        ReferenceError: createInterface is not defined
+            at Object.<anonymous> (/workspace/arrow_functions_challenge_from_template/arrow-functions4.js:33:20)
+            at Module._compile (node:internal/modules/cjs/loader:1101:14)
+            at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+            at Module.load (node:internal/modules/cjs/loader:981:32)
+            at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+            at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+            at node:internal/main/run_main_module:17:47
+        ```
+
 Q3/ If so, are there differences? 
 Q4/ What are they? 
 
