@@ -164,9 +164,32 @@ import { createInterface } from 'readline';
 
 which  explains why / where createInterface comes from on the next line
 
+## New approach: simple, non gerneral, specific:
+### Step 1:
+take user input, using previously done code
+->  tidy it up
+    so it takes
+    english
+->  and passes stuff along
+->  and outputs 77.5
+
+### Step 2:
+manual way to do just
+the addition, not the average yet.... is:
+
+### Step 3: as an interim / prelude stepL: (declare variables) :
+a = students.key  -> value[0]
+b = students.key  -> value[1]
+c = students.key  -> value[2]
+
+### Step 4: 
+take sum
+divide by 3
+= average (avg)
+
 #### Aside
 
 Pressing shift and . on keyboard while on this github page opens vscode in a browser in a new tab, and seems to allow editing directly in the browser without GitPod.
 
-Other References
+## Other References
 - [how to: nested loops](https://stackoverflow.com/questions/23508381/calculate-average-across-nested-array-of-objects-javascript)
