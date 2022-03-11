@@ -299,7 +299,9 @@ A1/
 Reference to review: node js prompt user input from cli
 No, createInterface is used for the first time on site and in this code base at the same point.
 
-Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4? A2/ Steps: Run: - arrow-functions.js - arrow-functions2.js - arrow-functions3.js - arrow-functions4.js
+Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4? 
+
+A2/ Steps: Run: - arrow-functions.js - arrow-functions2.js - arrow-functions3.js - arrow-functions4.js
 
 Q3/ If so, are there differences? 
 
