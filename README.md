@@ -21,7 +21,7 @@ Your result should look like the image below when the string "english" is passed
 
 ## "Pre-requisites"
 
-### Code needed to run program in liinux terminal
+### Code needed to run program in linux terminal
 
 node arrow-functions2.js
 
