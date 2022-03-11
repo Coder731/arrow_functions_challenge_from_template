@@ -291,6 +291,23 @@ Check reference to see if createInterface was declared earlier on the original s
 Thesis question: Is createInterface used without being declared in this code base, and this is what is causing the error? 
 
 ## 11Mar2020 2028h
+### Overview of Questions 1 to 4 taken from commit 57c8423
+
+Q1/ What is reference that createInterface came from? 
+
+A1/
+Reference to review: node js prompt user input from cli
+No, createInterface is used for the first time on site and in this code base at the same point.
+
+Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4? A2/ Steps: Run: - arrow-functions.js - arrow-functions2.js - arrow-functions3.js - arrow-functions4.js
+
+Q3/ If so, are there differences? 
+
+Q4/ What are they?
+
+
+### Questions 1 to 4 with answers in between
+
 Q1/ What is reference that createInterface came from?
 A1/ 
 - Reference to review: [node js prompt user input from cli](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
