@@ -409,9 +409,20 @@ ReferenceError: createInterface is not defined
     at node:internal/main/run_main_module:17:47
 ```
 
+#### post interim change
+
+now the error is gone from:
+x
+to 
+createInterface
+error in js file 2,
+as in js file 4
+
+
 #### Q3
 
-Q3/ If so, are there differences? 
+Q3/ If so, are there differences?
+
 Q4/ What are they? 
 
 
