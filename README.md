@@ -301,6 +301,21 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
   A2/ Steps: 
     Run:
       - arrow-functions.js
+        - Complete
+  #### Output:
+            
+            ```
+            8
+            10
+            Hello there!!
+            hello
+            <p>
+                    This is a multiline string!
+                </p>
+            undefined
+            undefined
+            ```
+      
       - arrow-functions2.js
       - arrow-functions3.js
       - arrow-functions4.js  
