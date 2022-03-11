@@ -18,7 +18,7 @@
 
         rl.question('What subject ? ', function (name) {
         rl.question('Where do you live ? ', function (country) {
-            console.log(`${name}, is a citizen of ${country}`);
+            console.log(`${name}, grade was ${country}`);
             rl.close();
         });
         });
