@@ -301,7 +301,11 @@ A1/
 
 Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4? 
 
-A2/ Steps: Run: - arrow-functions.js - arrow-functions2.js - arrow-functions3.js - arrow-functions4.js
+A2/ Steps: Run: 
+  - arrow-functions.js 
+  - arrow-functions2.js 
+  - arrow-functions3.js 
+  - arrow-functions4.js
 
 Q3/ If so, are there differences? 
 
