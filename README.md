@@ -22,8 +22,11 @@ Your result should look like the image below when the string "english" is passed
 ## "Pre-requisites"
 
 ### Code needed to run program in linux terminal
-
+#### run old file
 node arrow-functions2.js
+#### run new file
+node arrow-functions3.js
+
 
 ## Debug
 ### Issue 1
