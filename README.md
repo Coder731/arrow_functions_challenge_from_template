@@ -291,7 +291,8 @@ Check reference to see if createInterface was declared earlier on the original s
 Thesis question: Is createInterface used without being declared in this code base, and this is what is causing the error? 
 
 ## 11Mar2020 2028h
-What is reference that createInterface came from?
+Q/ What is reference that createInterface came from?
+A/ [node js prompt user input from cli](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
 
 ## Active Layer Above
 
