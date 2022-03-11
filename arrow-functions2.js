@@ -81,9 +81,15 @@ console.log(students.subjects)
 
 // if (without if) 
 // if user gives english
-// gets 78.5
+// gets 77.5
 
 // as this is average english score for all students
 
 // 3 students
+
+
+
+
+
+// NEW looping in looping array / object / datastructure:
 
