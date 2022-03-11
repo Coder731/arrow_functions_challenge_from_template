@@ -17,7 +17,7 @@
         });
 
         rl.question('What subject ? ', function (name) {
-        rl.question('Where do you live ? ', function (country) {
+        rl.question('grade here not from user ? ', function (country) {
             console.log(`${name}, grade was ${country}`);
             rl.close();
         });
