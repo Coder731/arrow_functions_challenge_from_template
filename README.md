@@ -105,6 +105,33 @@ Equivalent of prompt in node js
 The above solved the problem of taking user input without using prompt, in node js.
 
 ### Issue 3:
+#### Title
+Throws error when try to run arrow-functions3.js
+#### Error thrown in terminal:
+
+
+```
+gitpod /workspace/arrow_functions_challenge_from_template (main) $ node arrow-functions3.js
+(node:3851) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/workspace/arrow_functions_challenge_from_template/arrow-functions3.js:38
+        import { createInterface } from 'readline';
+        ^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+```
+
+#### Thoughts on error thrown
+This error seems to be generated from using import
+Note: this use of import may have been advised by ai or taken from an online solution
 
 ## Working through solution
 ### Attempt 1 Pseudo code
