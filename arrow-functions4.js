@@ -1,4 +1,4 @@
-// Challenge code given:
+// Question
 
 let students = [
     {
