@@ -475,6 +475,15 @@ const readline = require('readline');
 
 is the line of code in question
 
+#### Post review of 4 js files from screenshots pasted into Google slides:
+-Reference [review slides](https://docs.google.com/presentation/d/1U__F7Lu0I_njtEMKVuJJwXdS8TLNJN3H6EUeobM7UWg/edit#slide=id.gf3ae6b0699_0_69)
+same error in js file 2 (post correction) 3 and 4
+
+Re: Q2-4:
+indirect answer:
+Same error being thrown
+though not in Q1
+
 ## Active Layer Above
 
 #### Aside
