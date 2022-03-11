@@ -291,8 +291,16 @@ Check reference to see if createInterface was declared earlier on the original s
 Thesis question: Is createInterface used without being declared in this code base, and this is what is causing the error? 
 
 ## 11Mar2020 2028h
-Q/ What is reference that createInterface came from?
-A/ [node js prompt user input from cli](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
+Q1/ What is reference that createInterface came from?
+A1/ 
+- Reference to review: [node js prompt user input from cli](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
+- No, createInterface is used for the first time on site and in this code base at the same point.
+
+### Next step 2054h
+Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
+Q3/ If so, are there differences? 
+Q4/ What are they? 
+
 
 ## Active Layer Above
 
