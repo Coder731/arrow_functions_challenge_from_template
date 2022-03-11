@@ -26,9 +26,7 @@ let students = [
 
 // ## New simple specific approach :
 // ### Step 1:
-// take user input, using previously done code:
-
-    // take input from user using prompt 2.0 :
+// take user input using prompt 2.0 :
 
         const readline = require('readline');
 
