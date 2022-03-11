@@ -258,6 +258,7 @@ undefined
 Next step is to make a Slideshow with outputs and code aligned, or python tutor.
 
 - [Link to aforementioned slides](https://docs.google.com/presentation/d/1U__F7Lu0I_njtEMKVuJJwXdS8TLNJN3H6EUeobM7UWg/edit?usp=sharing)
+
 ## Active Layer Above
 
 #### Aside
