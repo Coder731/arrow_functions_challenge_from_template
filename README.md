@@ -317,6 +317,27 @@ Q2/ Is the same code working in iterations 1 2 / 3 of js file, but not 4?
             ```
       
       - arrow-functions2.js
+        - Complete (error)
+  #### Output:
+
+            ```
+            (node:3089) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+            (Use `node --trace-warnings ...` to show where the warning was created)
+            /workspace/arrow_functions_challenge_from_template/arrow-functions2.js:54
+                import { createInterface } from 'readline';
+                ^^^^^^
+
+            SyntaxError: Cannot use import statement outside a module
+                at Object.compileFunction (node:vm:352:18)
+                at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+                at Module._compile (node:internal/modules/cjs/loader:1065:27)
+                at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+                at Module.load (node:internal/modules/cjs/loader:981:32)
+                at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+                at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+                at node:internal/main/run_main_module:17:47
+            ```
+
       - arrow-functions3.js
       - arrow-functions4.js  
 Q3/ If so, are there differences? 
