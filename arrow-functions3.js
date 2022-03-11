@@ -16,7 +16,7 @@
         output: process.stdout
         });
 
-        rl.question('What is your name ? ', function (name) {
+        rl.question('What subject ? ', function (name) {
         rl.question('Where do you live ? ', function (country) {
             console.log(`${name}, is a citizen of ${country}`);
             rl.close();
