@@ -34,3 +34,14 @@ Also uncomment and use code line with a = students on both v2 and v3 of file
 so that lines in loop using a abbreviation will work
 
 Also fix semicolon bug in combo-2.js
+
+#### 12Mar2022 1838h combo-3.js
+Current output:
+
+```
+toyota, camry
+ford, mustang
+0: [object Object]
+1: [object Object]
+2: [object Object]
+```
