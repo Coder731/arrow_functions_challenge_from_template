@@ -18,6 +18,8 @@ Add loop with 3 leves
 - results
 - loop through results key value pairs
 
+has bug as second loop is throwing error related to semi-colon
+
 #### 12Mar2022 1824h combo-3.js
 Duplicate combo-2.js
 to
