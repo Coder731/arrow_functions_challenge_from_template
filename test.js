@@ -4,5 +4,5 @@ const hero = {
     name: 'Batman',
     city: 'Gotham'  
   };
-  let a = Object.keys(hero); // => ['name', 'city']
+  let a = Object.keys(hero.name); // => ['name', 'city']
   console.log(a)
