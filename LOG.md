@@ -129,3 +129,60 @@ Perhaps this is where it would be necessary to expand the array or object (s)
 recursively,
 so to speak.
 )
+
+#### 12Mar2022 1918h combo-3.js
+Is it possible that
+the last entry here in LOG md
+is incorrect slightly,
+in that,
+the for loop was not actually 3 for loops nested within each other
+but that one was iterating over the same thing as an outer one?
+
+As in, 
+was it the case that 
+
+this for loop:
+
+```
+            for (const [key, value] of Object.entries(students)) {
+                console.log(`${key}: ${value}`);
+            }
+```
+
+was actually going through the outer array...
+as was
+
+this for loop:
+
+```
+for(i = 0; i < students.length; i++) { // loops through students outer array with i
+
+}
+```
+
+and two more things:
+
+1. possible repitition / summary / refinement of above question:
+    - does this:
+
+    ```
+    i < students.length
+    ```
+
+    and does this:
+
+    ```
+    const [key, value] of Object.entries(students)
+    ```
+
+    refer to the same thing? (in combo-v3.js)
+
+2. what is the intermediate for loop doing?
+
+    this one:
+
+    ```
+        for(j=0; j < a[i].length; j++) {// loops through results // goes to results
+        
+        }
+    ```

@@ -82,7 +82,10 @@ for(i = 0; i < students.length; i++) { // loops through students outer array wit
         // for(k=/*key*/) {
             for (const [key, value] of Object.entries(students)) {
                 console.log(`${key}: ${value}`);
-              }
+                for (const [key, value] of Object.entries(students.results)) {
+                    console.log(`${key}: ${value}`);
+                }
+            }
             
 
 
