@@ -55,3 +55,5 @@ const averagePoints = (arr, subject) => {
 let result =  averagePoints (students,'english');
 console.log(result) // OUTPUT6: undefined
 console.log(students.subjects) // OUTPUT7: undefined
+
+console.log(students.results(key="english"))
