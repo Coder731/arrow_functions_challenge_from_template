@@ -225,3 +225,10 @@ leaving only:
     ```
     Object.entries(students.results)
     ```
+
+
+#### 12Mar2022 1944h combo-v4.js
+
+(Aside: TODO: Google how to input time stamp in README or LOG markdown files. Found this: [js code for date stamp, is it for markdown files? Says to save file as markdown](https://github.com/gsantner/markor/issues/374))
+
+Run combo-v4.js
