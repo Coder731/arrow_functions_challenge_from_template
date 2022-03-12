@@ -186,3 +186,17 @@ and two more things:
         
         }
     ```
+
+#### 12Mar2022 1931h
+Plan
+Add new file:
+combo-v4.js
+with only 
+    - students array
+        and
+    - this line of code (to check what the output is / if it is working in original combo-v3.js file) :
+
+    ```
+    Object.entries(students.results)
+    ```
+
