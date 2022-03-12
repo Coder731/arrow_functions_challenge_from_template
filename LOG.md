@@ -65,3 +65,20 @@ number: [Object Object]
 console.log(`${key}: ${value}`);
 
 ```
+
+#### 12Mar2022 1859h combo-3.js
+Just to further drill down to what exactly is causing the interesting output of the two objects:
+
+This fragment of code from the above line:
+
+```
+ ${value}
+'''
+
+is giving the output of 
+
+```
+[object Object]
+```
+
+Note capitalisation of second O only, not necessarily captured earlier 
