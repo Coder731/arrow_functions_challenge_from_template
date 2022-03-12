@@ -12,3 +12,8 @@ work on combo-2.js
 Bring in relevant code from 
 loop-object-in-array-v3.js
 
+##### 12Mar2022 1821h combo-2.js
+Add loop with 3 leves
+- outer student array
+- results
+- loop through results key value pairs
