@@ -1,14 +1,14 @@
 const addTwoNumbers = (a, b) => a + b;
 let sum = addTwoNumbers(3, 5);
-console.log(sum);
+console.log(sum); // 8
 
 const addTwoNumbers2 = (a, b) => a + b;
 let sum2 = addTwoNumbers2(6,4);
-console.log(sum2);
+console.log(sum2); // 10
 
 // Implicit Returns
 const saySomething = message => console.log(message);
-saySomething('Hello there!!');
+saySomething('Hello there!!'); // Hello there!
 
 const sayHello = () => console.log('hello');
 sayHello();
