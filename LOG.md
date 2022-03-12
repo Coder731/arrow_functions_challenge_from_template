@@ -73,7 +73,7 @@ This fragment of code from the above line:
 
 ```
  ${value}
-'''
+ ```
 
 is giving the output of 
 
@@ -82,3 +82,6 @@ is giving the output of
 ```
 
 Note capitalisation of second O only, not necessarily captured earlier 
+
+
+#### 12Mar2022 1903h 
