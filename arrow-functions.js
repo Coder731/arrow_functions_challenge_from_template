@@ -1,17 +1,19 @@
 const addTwoNumbers = (a, b) => a + b;
 let sum = addTwoNumbers(3, 5);
-console.log(sum); // 8
+console.log(sum); // OUTPUT1: 8
 
 const addTwoNumbers2 = (a, b) => a + b;
 let sum2 = addTwoNumbers2(6,4);
-console.log(sum2); // 10
+console.log(sum2); // OUTPUT2: 10
 
 // Implicit Returns
 const saySomething = message => console.log(message);
-saySomething('Hello there!!'); // Hello there!
+saySomething('Hello there!!'); // OUTPUT3: Hello there!
 
 const sayHello = () => console.log('hello');
-sayHello();
+sayHello(); // OUTPUT 4: hello
+
+// _________________________________
 
 // Returning Multiple Lines
 
@@ -20,7 +22,7 @@ const returnMultipleLines = () => (
         This is a multiline string!
     </p>`
 )
-console.log(returnMultipleLines());
+console.log(returnMultipleLines()); // OUTPUT 5: 3 line HTML code
 
 
 // PART 2:
@@ -45,23 +47,11 @@ let students = [
     }
 ];
 
-// average
-// averageMarks = sum / numParticipants
-// const avgMrks = 
 const averagePoints = (arr, subject) => {
     return 
 };
-// Array.prototype.students = function() {
-//   var sum = 0;
-//   var count = this.length;
-//   for (i=0; i<count; i++) {
-//     sum += this[i];
-//   }
-//   return sum/count;
-// }
 // https://stackoverflow.com/questions/20905354/javascript-calculating-the-average-of-an-array-using-for-loop
 
-
 let result =  averagePoints (students,'english');
-console.log(result)
-console.log(students.subjects)
+console.log(result) // OUTPUT6: undefined
+console.log(students.subjects) // OUTPUT7: undefined
