@@ -487,6 +487,13 @@ though not in Q1
 
 #### cut comments from js file 1 
 
+#### Next step 12Mar2022 1523h
+take code from here:
+[looping object in array](https://www.youtube.com/watch?v=RxjQgIhEPWE&ab_channel=CodifyAcademy)
+
+copy to new file combo-2.js
+remove reference comments duplicated from combo-1.js
+
 ## Active Layer Above
 
 #### Aside
