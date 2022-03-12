@@ -200,3 +200,28 @@ with only
     Object.entries(students.results)
     ```
 
+#### 12Mar2022 1939h
+Creaete combo 4 js file
+by duplicating combo3 js file
+and removing 
+extraneous code and comments,
+leaving only: 
+    
+    1. the students array
+    
+    2. the aabbreviation:
+
+    ```
+    a = students;
+    ```
+    
+    3. The commented original nested for loop (tidied), from which our code of interest comes
+    
+    and
+    
+    4. the for loop with the code:
+
+    
+    ```
+    Object.entries(students.results)
+    ```
