@@ -17,3 +17,11 @@ Add loop with 3 leves
 - outer student array
 - results
 - loop through results key value pairs
+
+#### 12Mar2022 1824h combo-3.js
+Duplicate combo-2.js
+to
+combo-3.js
+so that,
+can work on loop
+without losing original idea
