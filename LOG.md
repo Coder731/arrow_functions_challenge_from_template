@@ -45,3 +45,11 @@ ford, mustang
 1: [object Object]
 2: [object Object]
 ```
+
+#### 12Mar2022 1839h combo-3.js
+Issue with output: 
+is that it is
+returning:
+[object Object]
+
+Note: a count is being returned with each dual Object array
