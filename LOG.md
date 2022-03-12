@@ -53,3 +53,15 @@ returning:
 [object Object]
 
 Note: a count is being returned with each dual Object array
+
+#### 12Mar2022 1844h combo-3.js
+Note: 
+
+This line in combo-3.js
+is causing the interesting output of
+number: [Object Object]
+
+```
+console.log(`${key}: ${value}`);
+
+```
