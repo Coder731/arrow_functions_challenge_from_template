@@ -27,3 +27,10 @@ combo-3.js
 so that,
 can work on loop
 without losing original idea
+
+#### 12Mar2022 1832h combo-3.js
+Fix semicolon bug
+Also uncomment and use code line with a = students on both v2 and v3 of file
+so that lines in loop using a abbreviation will work
+
+Also fix semicolon bug in combo-2.js

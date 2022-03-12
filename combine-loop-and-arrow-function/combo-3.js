@@ -62,7 +62,7 @@ let students = [
 
 // simpler
 
-// let a = students;
+let a = students;
 
 // for(i = 0; i < a.length; i++) { // loops through students outer array with i
 //     // for(j=0; j < a[i].length; j++) // loops through results
@@ -78,7 +78,7 @@ let students = [
 
 for(i = 0; i < students.length; i++) { // loops through students outer array with i
     // for(j=3;) // loops through results // goes to results
-    for(j=results;) {// loops through results // goes to results
+    for(j=0; j < a[i].length; j++) {// loops through results // goes to results
         // for(k=/*key*/) {
             for (const [key, value] of Object.entries(students)) {
                 console.log(`${key}: ${value}`);
