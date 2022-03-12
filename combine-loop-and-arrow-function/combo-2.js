@@ -53,10 +53,30 @@ let students = [
 ];
 
 // loop 2 variables
-for(i = 0; i < students.length; i++) {
-    for(j=0; j < students[i].length; j++)
-    if(students[i].results == 'english') {
-        console.log(students[i].results + ", " + students[i].results)
+// for(i = 0; i < students.length; i++) { // loops through students outer array with i
+//     for(j=0; j < students[i].length; j++) // loops through results
+//     if(students[i].results == 'english') {
+//         console.log(students[i].results + ", " + students[i].results)
+//     }
+// }
+
+// simpler
+
+let a = students;
+
+for(i = 0; i < a.length; i++) { // loops through students outer array with i
+    for(j=0; j < a[i].length; j++) // loops through results
+     console.log(a[i])
+    if(a[i].results == 'english') {
+        console.log(a[i].results + ", " + a[i].results)
     }
 }
 
+// more complex
+
+// for(i = 0; i < students.length; i++) { // loops through students outer array with i
+//     for(j=0; j < students[i].length; j++) // loops through results
+//     if(students[i].results == 'english') {
+//         console.log(students[i].results + ", " + students[i].results)
+//     }
+// }
