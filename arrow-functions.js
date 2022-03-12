@@ -56,4 +56,15 @@ let result =  averagePoints (students,'english');
 console.log(result) // OUTPUT6: undefined
 console.log(students.subjects) // OUTPUT7: undefined
 
-console.log(students.results(key="english"))
+console.log(students[0].subjects[0])
+console.log(students[0].subjects.keys())
+Object.keys(students[0].subjects[0])
+
+// https://betterprogramming.pub/accessing-an-objects-keys-values-and-entries-in-javascript-e7bb5d33d11c
+
+const hero = {
+    name: 'Batman',
+    city: 'Gotham'  
+  };
+  Object.keys(hero); // => ['name', 'city']
+  
