@@ -21,6 +21,7 @@ var cars = [
     }
 ]
 
+// loop 1 variable
 for(i = 0; i < cars.length; i++) {
     if(cars[i].year < 2010) {
         console.log(cars[i].make + ", " + cars[i].model)
@@ -51,9 +52,11 @@ let students = [
     }
 ];
 
+// loop 2 variables
 for(i = 0; i < students.length; i++) {
     for(j=0; j < students[i].length; j++)
     if(students[i].results == 'english') {
         console.log(students[i].results + ", " + students[i].results)
     }
 }
+
