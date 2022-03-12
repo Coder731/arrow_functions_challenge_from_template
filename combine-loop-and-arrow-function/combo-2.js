@@ -1,7 +1,4 @@
 // from combo-1.js
-
-// https://www.youtube.com/watch?v=RxjQgIhEPWE&ab_channel=CodifyAcademy
-
 // creating an array of objects
 var cars = [
     {
@@ -53,3 +50,10 @@ let students = [
         results: {science: 63, maths: 79, art: 95},
     }
 ];
+
+for(i = 0; i < students.length; i++) {
+    for(j=0; j < students[i].length; j++)
+    if(students[i].results == 'english') {
+        console.log(students[i].results + ", " + students[i].results)
+    }
+}

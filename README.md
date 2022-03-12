@@ -494,6 +494,11 @@ take code from here:
 copy to new file combo-2.js
 remove reference comments duplicated from combo-1.js
 
+#### 12Mar2022 1602h
+- Add loop-js-test.js
+- change object name from object1 to students
+- add reference
+
 ## Active Layer Above
 
 #### Aside
