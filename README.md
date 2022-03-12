@@ -496,4 +496,4 @@ Pressing shift and . on keyboard while on this github page opens vscode in a bro
 ## Other References
 - [how to: nested loops](https://stackoverflow.com/questions/23508381/calculate-average-across-nested-array-of-objects-javascript)
 - [JSON](https://help.rapid7.com/insightidr/content/json/overview.html)
-= [access arrays -square brackets - js](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)
+= [access arrays - square brackets - js](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)
