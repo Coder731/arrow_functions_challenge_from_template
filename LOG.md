@@ -84,4 +84,48 @@ is giving the output of
 Note capitalisation of second O only, not necessarily captured earlier 
 
 
-#### 12Mar2022 1903h 
+#### 12Mar2022 1903h combo-3.js
+To further refine definition and relationship
+between code and output:
+
+although the expected output
+for
+value
+of results
+was a single entity, not necessarily an object,
+this was possibly due to looking at the cars array
+where 
+in say the first object in the array,
+the fourth element is a
+key value pair,
+where
+for a given key,
+say the fourth key, (index 3)
+one would expect
+a given value.
+
+
+However,
+looking at the students array,
+for a given key,
+specifically:
+the fourth key, (index 3),
+results is the key,
+however,
+fascinatingly:
+the value for this key...
+
+is in fact
+
+not a value but an object 
+with key value pairs.
+
+So, essentially, to sum up:
+it would seem
+that a fourth layer of for loop is needed.
+
+(
+Perhaps this is where it would be necessary to expand the array or object (s)
+recursively,
+so to speak.
+)
