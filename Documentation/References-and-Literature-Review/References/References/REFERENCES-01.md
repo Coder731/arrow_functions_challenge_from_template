@@ -4,3 +4,10 @@
 = [access arrays - square brackets - js](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)
 - Reference to review: [node js prompt user input from cli](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
 - [Clean Code initiative: "once the code works, that's when you have to clean it"](https://youtu.be/7EmboKQH8lM?t=1858)
+
+
+### Time and Date Stamp
+- [Time and Date Stamp](https://www.timeanddate.com/worldclock/)
+
+## Literature Review References
+- [Use dashes as delimiters](https://github.com/bartvandebiezen/file-name-conventions#:~:text=Use%20dashes%20as%20delimiters,-You%20should%20use&text=Never%20use%20spaces%20or%20underscores,displayed%20as%20an%20underlined%20link.)
