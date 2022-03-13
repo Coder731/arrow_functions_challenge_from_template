@@ -10,7 +10,7 @@ average = sum / count;
 
 
 
-### Revise with more detial
+### Revise with more detail
 if english
 return marks
 
