@@ -1,5 +1,57 @@
 A log of work towards solving challenge
 
+## 11Mar2022 1215h
+Ok so, 
+
+arrow-functions2.js
+and
+arrow-functions3.js
+
+don't run (fully?) have errors
+
+but,
+arrow-functions.js runs.
+
+### arrow-functions.js output
+
+```
+8
+10
+Hello there!!
+hello
+<p>
+        This is a multiline string!
+    </p>
+undefined
+undefined
+```
+
+## 11Mar2022 1217h
+Next step is to make a Slideshow with outputs and code aligned, or python tutor.
+
+- [Link to aforementioned slides](https://docs.google.com/presentation/d/1U__F7Lu0I_njtEMKVuJJwXdS8TLNJN3H6EUeobM7UWg/edit?usp=sharing)
+
+## Duplicate into new js file
+remove comments
+
+
+
+#### cut comments from js file 1 
+
+#### Next step 12Mar2022 1523h
+take code from here:
+[looping object in array](https://www.youtube.com/watch?v=RxjQgIhEPWE&ab_channel=CodifyAcademy)
+
+copy to new file combo-2.js
+remove reference comments duplicated from combo-1.js
+
+#### 12Mar2022 1602h
+- Add loop-js-test.js
+- change object name from object1 to students
+- add reference
+
+
+
 #### 12Mar2022 1635h
 ##### Step 1
 Add loop-object-in-array-v3.js
