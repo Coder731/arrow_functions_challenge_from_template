@@ -254,4 +254,12 @@ Add new combo js file that returns object parts
 
 - return keys
 
-- Add reference
+- Add reference 
+- [return keys](https://stackoverflow.com/questions/8430336/get-keys-of-json-object-in-javascript)
+
+
+#### add wd 5 folder
+
+add return-keys.js
+
+remove excess
