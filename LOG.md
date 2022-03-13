@@ -263,3 +263,42 @@ Add new combo js file that returns object parts
 add return-keys.js
 
 remove excess
+
+
+#### return-keys.js 13Mar2022 1954h
+
+##### Latest commit has explanation of how range that we want is range[i][j][k]
+
+Edit range in 3rd loop from val2 to  sub_val
+
+Also change 
+students[i]
+which is val
+
+so second for loop range is
+students i
+
+and third range is
+sub val which is 
+students[i][j]
+
+and sub val2 is 
+students i j k
+which is at 
+third level of depth
+in the data structure
+students
+made up of an array
+with nested objects
+including key value pair
+results
+which has a value
+of another object
+which is itself
+a set of 
+key value pairs
+where
+key is subject
+and 
+value is 
+result

@@ -30,9 +30,9 @@ let a = students;
             var sub_key = j;
             var sub_val = val[j];
             // console.log(sub_key);
-            for(var k in val2){
+            for(var k in sub_val){
                 var sub_key2 = k;
-                var sub_val2 = val2[k];
+                var sub_val2 = sub_val[k];
                 console.log(sub_key2);
             }
         }
