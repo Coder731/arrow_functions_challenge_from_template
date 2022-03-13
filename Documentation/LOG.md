@@ -302,3 +302,81 @@ key is subject
 and 
 value is 
 result
+
+#### input and output to terminal 21:11:29 Sunday, 13 March 2022
+
+
+
+##### input
+node return-keys.js
+
+##### output
+75
+0
+1
+2
+3
+0
+1
+2
+maths
+english
+cad
+maths
+english
+cad
+0
+1
+2
+3
+4
+0
+1
+2
+3
+science
+maths
+english
+art
+science
+maths
+english
+art
+0
+1
+2
+3
+0
+1
+2
+science
+maths
+art
+science
+maths
+art
+
+#### Explanation of above output in this coming commit message
+
+Add output of return keys js file to LOG md
+
+Aside 
+First gives a grade
+75
+the result 
+for the subject english
+
+Main Point 
+Gives subjects
+interspersed with numbers
+for each of the three students
+in array
+students
+
+Note seemingly 
+the output apart from 
+english result of 75
+is coming from loging
+sub key 2
+which is
+students i j k
