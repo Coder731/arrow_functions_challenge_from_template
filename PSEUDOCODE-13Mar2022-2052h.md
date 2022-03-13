@@ -27,7 +27,7 @@ get count
 average = sum / count;
 
 
-### Revise with more detial (Pass 3)
+### Revise with more detail (Pass 3)
 if english
 return marks
 
