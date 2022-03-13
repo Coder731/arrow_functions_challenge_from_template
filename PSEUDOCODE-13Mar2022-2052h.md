@@ -43,3 +43,26 @@ for z in students[3][j][k]
 
 get count
 average = sum / count;
+
+
+
+#### Revise with more detail (Pass 4)
+take user input
+
+if english
+return marks
+
+#### get sum:
+sum is made up of three parts
+##### Part 1:
+for x in students[1][j][k]
+
+##### Part 2:
+for y in students[2][j][k]
+##### Part 3:
+for z in students[3][j][k]
+
+get count
+average = sum / count;
+
+
