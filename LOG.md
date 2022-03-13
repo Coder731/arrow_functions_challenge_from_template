@@ -232,3 +232,9 @@ leaving only:
 (Aside: TODO: Google how to input time stamp in README or LOG markdown files. Found this: [js code for date stamp, is it for markdown files? Says to save file as markdown](https://github.com/gsantner/markor/issues/374))
 
 Run combo-v4.js
+
+
+#### 13Mar2022 0149h
+
+- [Objects: Nested Arrays & Objects--The Modern JavaScript Bootcamp](https://www.youtube.com/watch?v=D77ANP60DaU&t=72s&ab_channel=CodeWithSahib)
+
