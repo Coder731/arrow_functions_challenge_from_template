@@ -21,13 +21,7 @@ let students = [
 
 let a = students;
 
-// Isolated for loop of interest at 12Mar2022 1938h
-// if ${students[0].results.value}
     console.log(`${students[0].results.english}`);
-
-
-    // https://stackoverflow.com/questions/8430336/get-keys-of-json-object-in-javascript
-
     
     for(var i in students){
         var key = i;
