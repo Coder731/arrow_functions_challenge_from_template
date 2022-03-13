@@ -81,5 +81,3 @@ remove reference comments duplicated from combo-1.js
 - change object name from object1 to students
 - add reference
 
-## Active Layer Above
-
