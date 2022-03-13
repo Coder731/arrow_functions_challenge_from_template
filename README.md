@@ -7,7 +7,7 @@ To use this repository:
 - In your own repository, click the green "Gitpod" button
 
 
-# PART 2 of 2: Own Additions to README
+# PART 2 of 2: New Additions to README
 ## Question:
 
 In this challenge use both types, and unless stated, choose the type you are most comfortable with.
