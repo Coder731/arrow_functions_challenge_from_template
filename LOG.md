@@ -269,7 +269,7 @@ remove excess
 
 ##### Latest commit has explanation of how range that we want is range[i][j][k]
 
-Edit range in 3rd loop from val2 to  sub_val
+Edit range in 3rd loop from val2 to sub_val
 
 Also change 
 students[i]
@@ -283,7 +283,7 @@ sub val which is
 students[i][j]
 
 and sub val2 is 
-students i j k
+students[i][j[[k]
 which is at 
 third level of depth
 in the data structure
