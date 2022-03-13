@@ -1,5 +1,5 @@
  <!-- https://www.timeanddate.com/worldclock/ -->
-## 20:49:15 CET Sunday, 13 March 2022
+## 20:49:15 Sunday, 13 March 2022
 if english
 return marks
 
