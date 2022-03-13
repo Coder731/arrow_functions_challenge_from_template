@@ -16,7 +16,7 @@ brings up:
     - bold 
     - italics 
     - different heading levels
-    - predictive texxt insertions 
+    - predictive text insertions 
         like or from previously used text
 
 ##### Other setup notes
