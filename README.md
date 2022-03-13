@@ -83,7 +83,3 @@ remove reference comments duplicated from combo-1.js
 
 ## Active Layer Above
 
-#### Aside
-
-Pressing shift and . on keyboard while on this github page opens vscode in a browser in a new tab, and seems to allow editing directly in the browser without GitPod.
-
