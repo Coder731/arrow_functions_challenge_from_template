@@ -249,3 +249,9 @@ TypeError: Cannot convert undefined or null to object
 
 #### combo-5.js
 Add new combo js file that returns object parts
+
+#### combo-6.js
+
+- return keys
+
+- Add reference
