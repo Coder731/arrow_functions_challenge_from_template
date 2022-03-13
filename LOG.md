@@ -238,3 +238,11 @@ Run combo-v4.js
 
 - [Objects: Nested Arrays & Objects--The Modern JavaScript Bootcamp](https://www.youtube.com/watch?v=D77ANP60DaU&t=72s&ab_channel=CodeWithSahib)
 
+Error from running combo-4.js
+
+```
+for (const [key, value] of Object.entries(students.results)) {
+                                  ^
+
+TypeError: Cannot convert undefined or null to object
+```
