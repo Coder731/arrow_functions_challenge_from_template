@@ -246,3 +246,6 @@ for (const [key, value] of Object.entries(students.results)) {
 
 TypeError: Cannot convert undefined or null to object
 ```
+
+#### combo-5.js
+Add new combo js file that returns object parts
