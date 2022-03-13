@@ -29,6 +29,11 @@ let a = students;
         for(var j in val){
             var sub_key = j;
             var sub_val = val[j];
-            console.log(sub_key);
+            // console.log(sub_key);
+            for(var k in val2){
+                var sub_key2 = k;
+                var sub_val2 = val2[k];
+                console.log(sub_key2);
+            }
         }
     }
