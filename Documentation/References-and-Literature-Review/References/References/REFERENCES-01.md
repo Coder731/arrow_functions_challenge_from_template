@@ -15,3 +15,8 @@
 
 ## Open browser tabs on 00:25:52 Monday, 14 March 2022
 - [get keys of json-object in JavaScript [duplicate]](https://stackoverflow.com/questions/8430336/get-keys-of-json-object-in-javascript)
+
+
+# Official Literature
+
+- [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
