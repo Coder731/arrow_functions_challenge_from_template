@@ -51,13 +51,13 @@ let input = 'english'
                         // end converter
                         // console.log(`studentObjPropValIsKeyValPair is : ${studentObjPropValIsKeyValPair}`);
                         // console.log(`Though this comment is syntactically incorrect: SetToString(studentObjPropValIsKeyValPair) is : ${b}`);
-                        console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.b}`);
+                        // console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.b}`);
                         // console.log(`students[arrayStudentCount].results is : ${students[arrayStudentCount].results}`);
                         // console.log(`Object.keys(students[arrayStudentCount].results) is : ${Object.keys(students[arrayStudentCount].results)}`);
                         for (var count in Object.keys(students[arrayStudentCount].results)) {
                             if (Object.keys(students[arrayStudentCount].results)[count] == "english") {
-                                console.log("english located");
-                                console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.b}`);
+                                // console.log("english located");
+                                // console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.b}`);
                                 console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
                             }
                         }
@@ -66,4 +66,4 @@ let input = 'english'
             }
         }
     }
-    console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
+    // console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
