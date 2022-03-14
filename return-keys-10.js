@@ -19,6 +19,18 @@ let students = [
     }
 ];
 
+// mix in push to array from: 
+// https://www.codegrepper.com/code-examples/javascript/how+to+store+array.push+in+a+variable+javascript
+
+array = ["hello"]
+array.push("world");
+
+console.log(array);
+//output =>
+["hello", "world"]
+
+
+// get english results
 for(var arrayStudentCount in students){
     for(var jthPropertyInStudentsI in students[arrayStudentCount]){
         for(var studentObjPropValIsKeyValPair in students[arrayStudentCount][jthPropertyInStudentsI]){
@@ -44,3 +56,5 @@ for(var arrayStudentCount in students){
         }
     }
 }
+
+// get average
