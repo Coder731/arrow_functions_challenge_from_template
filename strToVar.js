@@ -1,3 +1,13 @@
+let students = [
+    {
+        name: 'John',
+        subjects: ['maths', 'english', 'cad'],
+        teacher: {maths: 'Harry', english: 'Joan', cad: 'Paul'},
+        results: {maths: 90, english: 75, cad: 87},
+    }
+]
+
+
 let b;
 
 // convert string to variable name
@@ -5,6 +15,9 @@ let b;
                         function SetToString(varString) {
                             var newValue = "string";
                             b = eval(varString + " = " + "'" + newValue + "'");
+                            console.log(b)
                           }                          
                         // end converter
-                        console.log(b)
+                        // console.log(b)
+
+                        SetToString(students);
