@@ -8,3 +8,6 @@ How to pause execution in JavaScript to wait for user input
 
 By breaking it up. The only "yield" in JavaScript on browsers is to let your function end and then arrange to get called back later (via setTimeout, setInterval, an ajax callback, etc.). In your case, I'd tend to think the trigger to call you back should be the user's action answering the previous question, e.g., a click handler on the answer boxes or some such (rather than setTimeout and such, which are automated)."
 
+### Interpretation
+This seems to talk about using callbacks.
+
