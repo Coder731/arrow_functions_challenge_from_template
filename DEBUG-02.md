@@ -1,7 +1,7 @@
 ## 14:03:11 Monday, 14 March 2022
 
 ### Bug Name
-string to variable Bug
+string to variable bug
 
 ### input to terminal
 node return-keys-7.js
@@ -33,3 +33,13 @@ SetToString(studentObjPropValIsKeyValPair) is : undefined
 ### Attempt to solve
 Why is function returning this?
 
+#### strToVar.js
+- Copied function strToVar into its own file
+- Modified by saving eval output to variable b
+- output of b 
+    - and function
+  is undefined
+  as is the case when tyring to use
+  strToVar function
+  in
+  return-keys-7.js 
