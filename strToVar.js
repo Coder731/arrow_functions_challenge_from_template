@@ -27,4 +27,4 @@ let stringTest = "fillerText";
                         console.log(typeof(b));
 
 
-// seems to be working but returns a string
+// seems to be working but seems to return a string
