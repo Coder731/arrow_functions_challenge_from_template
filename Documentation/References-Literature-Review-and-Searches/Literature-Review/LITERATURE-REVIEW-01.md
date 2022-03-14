@@ -39,33 +39,11 @@ how to return key in json
 #### Citation
 -[get keys of json-object in JavaScript [duplicate]](https://stackoverflow.com/questions/8430336/get-keys-of-json-object-in-javascript)
 
-# Official Literature
-## Object.entries()
 
-### Code used
 
-```
-const object1 = {
-  a: 'somestring',
-  b: 42
-};
+# Post get json-object HOLDER (for when other headings are collapsed)
 
-for (const [key, value] of Object.entries(object1)) {
-  console.log(`${key}: ${value}`);
-}
+### 
 
-// expected output:
-// "a: somestring"
-// "b: 42"
+# Pre Official Literature HOLDER (for when other headings are collapsed)
 
-```
-
-### Search terms
-how to reference and return key js node
-
-#### Citation
-
-- [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
-
-#### Other sites of interest found with search terms
--[How to reference the key from json with node.js](https://stackoverflow.com/questions/53366200/how-to-reference-the-key-from-json-with-node-js)
