@@ -1,3 +1,3 @@
-if (jthPropertyInStudentsI == results) {
+if (jthPropertyInStudentsI == "results") {
     console.log(studentObjPropValIsKeyValPair)
 }
