@@ -43,3 +43,18 @@ Why is function returning this?
   strToVar function
   in
   return-keys-7.js
+
+  ##### adjust strToVar.js
+
+Per commit ecbf43e
+
+Bug Add students array to strToVar js file Call
+
+put console log inside
+function
+
+Add function
+call
+
+output in terminal is
+object Object equals string
