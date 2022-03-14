@@ -32,10 +32,10 @@ let input = 'english'
     console.log(`${students[0].results.english}`);
     
     for(var arrayStudentCount in students){
-        var key = arrayStudentCount;
+        // var key = arrayStudentCount;
         // var val = students[i];
         for(var jthPropertyInStudentsI in students[arrayStudentCount]){
-            var sub_key = jthPropertyInStudentsI;
+            // var sub_key = jthPropertyInStudentsI;
             // var sub_val = students[i][jthValueInStudentsI];
             // console.log(sub_key);
             for(var k in students[arrayStudentCount][jthPropertyInStudentsI]){
