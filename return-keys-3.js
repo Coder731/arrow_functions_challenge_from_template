@@ -34,7 +34,9 @@ const readline = require('readline').createInterface({
     console.log(`The subject you have selected is: ${subject}!`)
     readline.close()
   })
-  console.log(`subject outside block scope: ${subject}`)
+// Next line causes subject variable scope bug
+//   console.log(`subject outside block scope: ${subject}`)
+
 // pseudocode:
     // if (input == 'english') {
     //     // set selector to english
