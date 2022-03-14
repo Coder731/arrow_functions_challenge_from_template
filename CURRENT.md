@@ -20,3 +20,8 @@ completed / not current
 
 ### Current Step (Move to PLAN-02.md when complete)
 
+## 02:09:28 Monday, 14 March 2022
+
+adapt take-user-input.js
+
+so that it asks for a subject not a name
