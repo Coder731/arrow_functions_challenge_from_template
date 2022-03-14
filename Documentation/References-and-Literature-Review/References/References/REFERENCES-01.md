@@ -16,7 +16,10 @@
 ## Open browser tabs on 00:25:52 Monday, 14 March 2022
 - [get keys of json-object in JavaScript [duplicate]](https://stackoverflow.com/questions/8430336/get-keys-of-json-object-in-javascript)
 
+## Uncategorised
+- [How to get loop value outside the loop](https://stackoverflow.com/questions/42251470/how-to-get-loop-value-outside-the-loop)
 
 # Official Literature
 
 - [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
