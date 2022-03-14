@@ -125,7 +125,14 @@ console.log(array);
 ["hello", "world"]
 ```
 
-# POST string to variable conversion HOLDER (for when other headings are collapsed)
+
+## how to sum elements of an array (not used)
+
+### Search Terms
+add js
+
+### Result
+-[Set.prototype.add()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/add)
 
 ## how to sum elements of an array
 
@@ -149,3 +156,17 @@ const sum = [1, 2, 3].reduce((partialSum, a) => partialSum + a, 0);
 console.log(sum); // 6
 ```
 
+# how to sum elements of an array HOLDER (for when other headings are collapsed)
+
+## 
+
+### search terms
+get len of array js
+
+### Results
+- [Array.prototype.length]{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length}
+
+### Code
+```
+clothing.length
+```
