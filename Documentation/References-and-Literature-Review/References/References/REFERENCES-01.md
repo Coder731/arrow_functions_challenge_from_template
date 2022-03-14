@@ -22,4 +22,4 @@
 # Official Literature
 
 - [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
-
+- [JavaScript if else and else if](https://www.w3schools.com/js/js_if_else.asp)
