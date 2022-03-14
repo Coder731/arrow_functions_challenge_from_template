@@ -33,9 +33,9 @@ let input = 'english'
     
     for(var arrayStudentCount in students){
         for(var jthPropertyInStudentsI in students[arrayStudentCount]){
-            for(var k in students[arrayStudentCount][jthPropertyInStudentsI]){
-                var sub_key2 = k;
-                var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][k];
+            for(var studentObjPropValIsKeyValPair in students[arrayStudentCount][jthPropertyInStudentsI]){
+                var sub_key2 = studentObjPropValIsKeyValPair;
+                var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair];
                 console.log(sub_key2);
                 // if (sub_val2 == ) {
                     
@@ -43,4 +43,4 @@ let input = 'english'
             }
         }
     }
-    console.log(`students i jth... k is: ${students[arrayStudentCount][jthPropertyInStudentsI][k]}`);
+    console.log(`students i jth... k is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
