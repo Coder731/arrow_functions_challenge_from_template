@@ -51,7 +51,58 @@ for(var arrayStudentCount in students) { // counts in students array : 0-2
 const sum2 = array.reduce((partialSum, a) => partialSum + a, 0);
 let number = array.length;
 let average = sum2 / number;
-console.log(`average result for english is : ${average}`);
+console.log(average);
+
+// get variable names right
+
+// ENTER SEARCH TERM HERE: change this to change search : 
+// let input = "english";
+
+// arrow functions
+// https://www.tutorialsteacher.com/typescript/arrow-function
+const averagePoints = (arr, subject) => { // step 1. & 2.
+    for (i in arr) {
+        for (j in arr[i]) {
+            for (k in arr[i][j]) {
+                console.log(`arr[i][j] is : ${arr[i][j]} ... is it a subject?`)
+                if (typeof(arr[i][j]) == Object) {
+                    console.log(`the key to this object is : ${Objects.keys(arr[i][j])}`)
+                    if ("math" == subject) {
+                        return arr[i][j]
+                    }
+                }
+            }
+        }
+    }
+    //if (arr[i][j][k] == subject) {
+        //return (Object.keys(arr[i][j]))
+        console.log(Object.keys(arr[i][j]));
+        console.log(Object.values(arr[i][j]));
+    //}
+    for (counter in Object.keys(arr[i][j])) {
+
+
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+        const found = students.find(element => element = subject);
+        console.log(`found : ${Object.values(found)}`);
+        for (counter2 in Object.values(found)) {
+            console.log(`Object.values(found)[counter2] : ${Object.values(found)[counter2]}`);
+            // if (typeof(Object.values(found)[counter2]) == Object) {
+            //     console.log("type is Object");
+            // }
+        }
+
+        // if (Object.keys(arr[i][j][counter]) == subject) {
+        //     return (Object.values(arr[i][j][counter]))
+        // }
+    }
+}
+
+
+
+let result = averagePoints(students, 'english')
+// console.log(`result is : ${result}`);
+
 
 //////////////////////////////////////////////////////////////////////
 
