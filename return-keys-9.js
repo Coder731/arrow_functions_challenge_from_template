@@ -25,7 +25,7 @@ for(var arrayStudentCount in students){
             var sub_key2 = studentObjPropValIsKeyValPair;
             var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]; // this is actually counting through the letters in the name 'John' with each letter at a different count 
             if (jthPropertyInStudentsI == "results") {
-                console.log(studentObjPropValIsKeyValPair);
+                // console.log(studentObjPropValIsKeyValPair); // logs subjects
                 if (studentObjPropValIsKeyValPair == "english") {
                     // convert string to variable name
                     let b;
