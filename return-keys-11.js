@@ -19,7 +19,7 @@ let students = [
     }
 ];
 
-// mix in push to array from: 
+// mixed in push to array from: 
 // https://www.codegrepper.com/code-examples/javascript/how+to+store+array.push+in+a+variable+javascript
 
 array = []
