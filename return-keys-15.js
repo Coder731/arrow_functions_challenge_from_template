@@ -65,8 +65,8 @@ const averagePoints = (arr, subject) => { // step 1. & 2.
         for (j in arr[i]) {
             for (k in arr[i][j]) {
                 console.log(`arr[i][j] is : ${arr[i][j]} ... is it a subject?`)
-                if (typeof(arr[i][j]) == Object) {
-                    console.log(`the key to this object is : ${Objects.keys(arr[i][j])}`)
+                if (Array.isArray(arr[i][j])) {
+                    console.log(`the key to this object is : ${students.keys(arr[i][j])}`)
                     if ("math" == subject) {
                         return arr[i][j]
                     }
