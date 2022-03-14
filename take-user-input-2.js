@@ -5,8 +5,8 @@ const readline = require('readline').createInterface({
     output: process.stdout
   })
   
-  readline.question(`What's your name?`, name => {
-    console.log(`Hi ${name}!`)
+  readline.question(`What subject are you interested in?`, subject => {
+    console.log(`The subject you have selected is: ${subject}!`)
     readline.close()
   })
   
