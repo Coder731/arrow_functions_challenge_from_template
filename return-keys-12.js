@@ -19,19 +19,15 @@ let students = [
     }
 ];
 
-// mixed in push to array from: 
-// https://www.codegrepper.com/code-examples/javascript/how+to+store+array.push+in+a+variable+javascript
-
 array = []
 
-// get english results
-for(var arrayStudentCount in students){
-    for(var jthPropertyInStudentsI in students[arrayStudentCount]){
-        for(var studentObjPropValIsKeyValPair in students[arrayStudentCount][jthPropertyInStudentsI]){
-            var sub_key2 = studentObjPropValIsKeyValPair;
+for(var arrayStudentCount in students) { // counts in students array : 0-2 
+    for(var jthPropertyInStudentsI in students[arrayStudentCount]) {  // counts properties 0-3
+        for(var studentObjPropValIsKeyValPair in students[arrayStudentCount][jthPropertyInStudentsI]) { /* counts inside properties, gives first high level value currently on */ console.log(`students[arrayStudentCount][jthPropertyInStudentsI] is : ${students[arrayStudentCount][jthPropertyInStudentsI]}`);
+            var sub_key2 = studentObjPropValIsKeyValPair; console.log(`studentObjPropValIsKeyValPair is : ${studentObjPropValIsKeyValPair}`) // counts the number the letter on the next line is in a sequence
             var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]; // this is actually counting through the letters in the name 'John' with each letter at a different count 
-            if (jthPropertyInStudentsI == "results") {
-                // console.log(studentObjPropValIsKeyValPair); // logs subjects
+            if (jthPropertyInStudentsI == "results") { console.log(`studentObjPropValIsKeyValPair is : ${jthPropertyInStudentsI}`) // gives name of subject
+                // console.log(studentObjPropValIsKeyValPair); // logs subjects also
                 if (studentObjPropValIsKeyValPair == "english") {
                     // convert string to variable name
                     let b;
