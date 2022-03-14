@@ -34,13 +34,13 @@ let input = 'english'
     for(var arrayStudentCount in students){
         var key = arrayStudentCount;
         // var val = students[i];
-        for(var jthValueInStudentsI in students[arrayStudentCount]){
-            var sub_key = jthValueInStudentsI;
+        for(var jthPropertyInStudentsI in students[arrayStudentCount]){
+            var sub_key = jthPropertyInStudentsI;
             // var sub_val = students[i][jthValueInStudentsI];
             // console.log(sub_key);
-            for(var k in students[arrayStudentCount][jthValueInStudentsI]){
+            for(var k in students[arrayStudentCount][jthPropertyInStudentsI]){
                 var sub_key2 = k;
-                var sub_val2 = students[arrayStudentCount][jthValueInStudentsI][k];
+                var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][k];
                 console.log(sub_key2);
                 // if (sub_val2 == ) {
                     
@@ -48,4 +48,4 @@ let input = 'english'
             }
         }
     }
-    console.log(`students i jth... k is: ${students[arrayStudentCount][jthValueInStudentsI][k]}`);
+    console.log(`students i jth... k is: ${students[arrayStudentCount][jthPropertyInStudentsI][k]}`);
