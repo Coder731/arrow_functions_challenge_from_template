@@ -58,3 +58,7 @@ call
 
 output in terminal is
 object Object equals string
+
+  ##### 15:23:25 Monday, 14 March 2022
+  Check type of string output
+  type is string
