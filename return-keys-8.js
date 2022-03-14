@@ -36,30 +36,29 @@ let input = 'english'
             for(var studentObjPropValIsKeyValPair in students[arrayStudentCount][jthPropertyInStudentsI]){
                 var sub_key2 = studentObjPropValIsKeyValPair;
                 var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]; // this is actually counting through the letters in the name 'John' with each letter at a different count 
-                // console.log(sub_key2);
                 if (jthPropertyInStudentsI == "results") {
                     console.log(studentObjPropValIsKeyValPair);
                     if (studentObjPropValIsKeyValPair == "english") {
                         // convert string to variable name
                         let b;
-                        // https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-javascript
                         function SetToString(varString) {
                             var newValue = studentObjPropValIsKeyValPair;
                             b = eval(varString + " = " + "'" + newValue + "'");
-                            console.log(`b is : ${b}`)
+                            // console.log(`b is : ${b}`)
                           }                        
                           SetToString();  
-                          console.log(`typeof(b) : ${typeof(b)}`);
-
+                          // console.log(`typeof(b) : ${typeof(b)}`);
                         // end converter
-                        console.log(`studentObjPropValIsKeyValPair is : ${studentObjPropValIsKeyValPair}`);
-                        console.log(`Though this comment is syntactically incorrect: SetToString(studentObjPropValIsKeyValPair) is : ${b}`);
+                        // console.log(`studentObjPropValIsKeyValPair is : ${studentObjPropValIsKeyValPair}`);
+                        // console.log(`Though this comment is syntactically incorrect: SetToString(studentObjPropValIsKeyValPair) is : ${b}`);
                         console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.b}`);
-                        console.log(`students[arrayStudentCount].results is : ${students[arrayStudentCount].results}`);
-                        console.log(`Object.keys(students[arrayStudentCount].results) is : ${Object.keys(students[arrayStudentCount].results)}`);
+                        // console.log(`students[arrayStudentCount].results is : ${students[arrayStudentCount].results}`);
+                        // console.log(`Object.keys(students[arrayStudentCount].results) is : ${Object.keys(students[arrayStudentCount].results)}`);
                         for (var count in Object.keys(students[arrayStudentCount].results)) {
                             if (Object.keys(students[arrayStudentCount].results)[count] == "english") {
                                 console.log("english located");
+                                console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.b}`);
+                                console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
                             }
                         }
                     }
@@ -67,4 +66,4 @@ let input = 'english'
             }
         }
     }
-    // console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
+    console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);

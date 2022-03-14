@@ -56,7 +56,6 @@ An object contains properties, or key-value pairs.
 "
 
 
-# POST key value pairs are properties HOLDER (for when other headings are collapsed)
 
 ## variable to String conversion
 
@@ -104,4 +103,23 @@ function SetToString(varString) {
   eval(varString + " = " + "'" + newValue + "'");
 }
 
+```
+
+# POST string to variable conversion HOLDER (for when other headings are collapsed)
+
+### search string
+how to store push each new var in js to an array
+
+### Result
+- [“how to store array.push in a variable javascript” Code Answer](https://www.codegrepper.com/code-examples/javascript/how+to+store+array.push+in+a+variable+javascript)
+
+### Code
+
+```
+array = ["hello"]
+array.push("world");
+
+console.log(array);
+//output =>
+["hello", "world"]
 ```
