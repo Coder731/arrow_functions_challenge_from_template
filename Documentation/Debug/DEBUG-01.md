@@ -139,6 +139,10 @@ ReferenceError: createInterface is not defined
 Add console log for subject variable outside block scope
 to test if available
 
+### file affected:
+
+return-keys-3.js
+
 ### Error in terminal:
 
 ```
