@@ -22,4 +22,6 @@ let stringTest = "fillerText";
                         // end converter
                         // console.log(b)
 
-                        SetToString(stringTest);
+                        SetToString("fillerText");
+
+                        console.log(typeof(b));
