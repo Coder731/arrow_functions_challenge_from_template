@@ -31,14 +31,6 @@ return-keys.js
 and pseudocode file
 
 
-Also 
-
-move 
-take-user-input.js
-
-into 
-
-archived-files/working code archive
 
 ## Complete
 Also 
