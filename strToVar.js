@@ -10,6 +10,8 @@ let students = [
 
 let b;
 
+let stringTest = "fillerText";
+
 // convert string to variable name
                         // https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-javascript
                         function SetToString(varString) {
@@ -20,4 +22,4 @@ let b;
                         // end converter
                         // console.log(b)
 
-                        SetToString(students);
+                        SetToString(stringTest);
