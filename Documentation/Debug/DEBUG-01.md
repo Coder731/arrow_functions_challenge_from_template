@@ -133,7 +133,7 @@ ReferenceError: createInterface is not defined
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
 ```
-## 14Mar2022 0533h results variable scope bug [Resolved]
+## 14Mar2022 0533h results variable scope bug [Unresolved]
 
 ### Steps to reproduce
 Add console log for subject variable outside block scope
@@ -155,5 +155,10 @@ ReferenceError: subject is not defined
     at Module._compile (node:internal/modules/cjs/loader:1101:14)
 ```
 
-### Solution
+### Attempted Solution
 Declare subject outside and before block.
+
+### Result
+subject logged as undefined
+also logged before input raken
+from user
