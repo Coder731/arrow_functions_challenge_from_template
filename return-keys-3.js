@@ -21,7 +21,7 @@ let students = [
 
 let a = students;
 
-let subject;
+// let subject;
 // take user input :
 // https://nodejs.dev/learn/accept-input-from-the-command-line-in-nodejs
 
@@ -37,8 +37,9 @@ let subject;
     //   })
 
 // Next line causes subject variable scope bug:
-  console.log(`subject outside block scope: ${subject}`)
+//   console.log(`subject outside block scope: ${subject}`)
 
+let input = 'english'
 // pseudocode:
     // if (input == 'english') {
     //     // set selector to english
@@ -58,6 +59,10 @@ let subject;
                 var sub_key2 = k;
                 var sub_val2 = sub_val[k];
                 console.log(sub_key2);
+                // if (sub_val2 == ) {
+                    
+                // }
             }
         }
     }
+    console.log(`students i j k is: ${students[i][j][k]}`);
