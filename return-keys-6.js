@@ -29,7 +29,7 @@ let input = 'english'
     // }
 
 
-    console.log(`${students[0].results.english}`);
+    // console.log(`${students[0].results.english}`);
     
     for(var arrayStudentCount in students){
         for(var jthPropertyInStudentsI in students[arrayStudentCount]){
@@ -43,4 +43,4 @@ let input = 'english'
             }
         }
     }
-    console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
+    // console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
