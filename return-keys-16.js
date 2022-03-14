@@ -19,7 +19,7 @@ let students = [
     }
 ];
 
-array = []
+array = [];
 
 for(var arrayStudentCount in students) { // counts in students array : 0-2 
     for(var jthPropertyInStudentsI in students[arrayStudentCount]) {  // counts properties 0-3
