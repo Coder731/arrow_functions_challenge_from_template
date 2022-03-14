@@ -41,14 +41,19 @@ let input = 'english'
                     console.log(studentObjPropValIsKeyValPair);
                     if (studentObjPropValIsKeyValPair == "english") {
                         // convert string to variable name
+                        let b;
                         // https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-javascript
                         function SetToString(varString) {
-                            var newValue = "string";
-                            eval(varString + " = " + "'" + newValue + "'");
-                          }                          
+                            var newValue = studentObjPropValIsKeyValPair;
+                            b = eval(varString + " = " + "'" + newValue + "'");
+                            console.log(`b is : ${b}`)
+                          }                        
+                          SetToString();  
+                          console.log(`typeof(b) : ${typeof(b)}`);
+
                         // end converter
                         console.log(`studentObjPropValIsKeyValPair is : ${studentObjPropValIsKeyValPair}`);
-                        console.log(`SetToString(studentObjPropValIsKeyValPair) is : ${SetToString(studentObjPropValIsKeyValPair)}`);
+                        console.log(`Though this comment is syntactically incorrect: SetToString(studentObjPropValIsKeyValPair) is : ${b}`);
                         // console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.SetToString(studentObjPropValIsKeyValPair)}`);
                     }
                 }
