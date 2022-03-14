@@ -31,5 +31,12 @@ for
 taking user input
 
 #### run arrow-functions.js
+Q/
 - see what output is
 - does it look for user input?
+A/
+Not found
+
+Next find new reference for taking user input in node.js
+
+- also see pseudocode file
