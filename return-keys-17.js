@@ -90,6 +90,15 @@ const averagePoints = (arr, subject) => { // step 1. & 2.
             // console.log(`When counter2 is : ${counter2} typeof(Object.values(found)[counter2]) is : ${typeof(Object.values(found)[counter2])}`);
             if (typeof(Object.values(found)[counter2]) == ("object")) { // should this be string "object" instead ?
                 console.log(`type is Object.  Object.values(found)[counter2] is : ${Object.values(found)[counter2]}`);
+                // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+                // objectName.propertyName
+                for (i2 in students) {
+                    console.log(students[i2]);
+                    for (j2 in students[i2]) {
+                        console.log(students[i2][j2]);
+                    }
+                }
+
             }
         }
 
