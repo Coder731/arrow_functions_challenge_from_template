@@ -20,23 +20,3 @@ completed / not current
 
 ### Current Step (Move to PLAN-02.md when complete)
 
-Find 
-
-and
-
-Add code 
-
-for 
-
-taking user input
-
-#### run arrow-functions.js
-Q/
-- see what output is
-- does it look for user input?
-A/
-Not found
-
-Next find new reference for taking user input in node.js
-
-- also see pseudocode file
