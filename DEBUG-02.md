@@ -1,7 +1,7 @@
 ## 14:03:11 Monday, 14 March 2022
 
 ### Bug Name
-string to variable bug
+string to variable bug [Resolved]
 
 ### input to terminal
 node return-keys-7.js
@@ -66,3 +66,36 @@ object Object equals string
   ##### 15:33:26 Monday, 14 March 2022
   - seems to be working but 
     seems to return a string not a variable
+
+## Solution
+When output from terminal is object Object
+the use 
+Object.keys()
+and pass in
+students[arrayStudentCount].results)[count]
+
+Then use equality check == 
+to check if 
+Object.keys(students[arrayStudentCount].results)[count]
+is
+"english"
+
+Side Note:
+Although it said earlier that output was string
+when this function was used in the return keys 7 js 
+file,
+it was possible to specify the
+location as being 
+where 
+english
+is
+by using 
+b.
+
+Where b is 
+eval(varString + " = " + "'" + newValue + "'")
+
+Where b returns only whatever is the value of 
+newValue passed in
+and even though it says type is string,
+it seems to be usable as a varibale.
