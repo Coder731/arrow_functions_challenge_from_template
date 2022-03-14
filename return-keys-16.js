@@ -84,7 +84,7 @@ const averagePoints = (arr, subject) => { // step 1. & 2.
 
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
         const found = students.find(element => element = subject);
-        console.log(`found : ${Object.values(found)}`);
+        // console.log(`found : ${Object.values(found)}`);
         for (counter2 in Object.values(found)) {
             console.log(`Object.values(found)[counter2] : ${Object.values(found)[counter2]}`);
             // if (typeof(Object.values(found)[counter2]) == Object) {
