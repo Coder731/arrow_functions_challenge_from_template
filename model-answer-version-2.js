@@ -22,12 +22,23 @@ let students = [
 console.log(typeof(students));
 
 const averagePoints = (arr, subject) => {
+    console.log(`arr : ${arr}`);
     let allPoints = 0;
     let sum = 0;
     for(let itm of arr) {
       if(subject in itm.results) {
+        console.log(`itm : ${itm}`);
+        console.log(`arr : ${arr}`);
+        console.log(`itm.results : ${itm.results}`);
+
         allPoints += itm.results[subject];
+        
+        console.log(`itm.results[subject] : ${itm.results[subject]}`);
+        console.log(`allPoints : ${allPoints}`);
+
+        console.log(`sum : ${sum}`);
         sum+=1;
+        console.log(`sum : ${sum}`);
       }
     }
     return allPoints / sum;
