@@ -15,13 +15,16 @@ let stringTest = "fillerText";
 // convert string to variable name
                         // https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-javascript
                         function SetToString(varString) {
-                            var newValue = "string";
+                            var newValue = "foo";
                             b = eval(varString + " = " + "'" + newValue + "'");
                             console.log(b)
                           }                          
                         // end converter
                         // console.log(b)
 
-                        SetToString("fillerText");
+                        SetToString();
 
                         console.log(typeof(b));
+
+
+// seems to be working but returns a string

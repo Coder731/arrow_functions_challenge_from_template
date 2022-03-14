@@ -62,3 +62,7 @@ object Object equals string
   ##### 15:23:25 Monday, 14 March 2022
   Check type of string output
   type is string
+
+  ##### 15:33:26 Monday, 14 March 2022
+  - seems to be working but 
+    seems to return a string not a variable

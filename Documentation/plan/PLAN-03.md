@@ -17,3 +17,9 @@ and analyse why
 output is
 undefined in
 return-keys-7.md
+
+### 15:34:15 Monday, 14 March 2022
+test to see if function now works in return-keys-7.js
+despite seeming to return 
+a string not a variable in
+strToVar.js
