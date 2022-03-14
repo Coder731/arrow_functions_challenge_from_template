@@ -56,3 +56,22 @@ for(var arrayStudentCount in students){
 console.log(array);
 
 // get average
+
+for (x in array) {
+    console.log(array[x]);    
+}
+
+// let s=array.sum();
+// console.log(s);
+
+
+// https://stackoverflow.com/questions/1230233/how-to-find-the-sum-of-an-array-of-numbers
+const sum = [1, 2, 3].reduce((partialSum, a) => partialSum + a, 0);
+console.log(sum); // 6
+
+const sum2 = array.reduce((partialSum, a) => partialSum + a, 0);
+console.log(sum2);
+let number = array.length;
+console.log(`number is : ${number}`);
+let average = sum2 / number;
+console.log(`average result for english is : ${average}`);

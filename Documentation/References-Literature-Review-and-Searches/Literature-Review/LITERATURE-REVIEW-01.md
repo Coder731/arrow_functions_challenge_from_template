@@ -105,7 +105,8 @@ function SetToString(varString) {
 
 ```
 
-# POST string to variable conversion HOLDER (for when other headings are collapsed)
+
+## push to array
 
 ### search string
 how to store push each new var in js to an array
@@ -123,3 +124,28 @@ console.log(array);
 //output =>
 ["hello", "world"]
 ```
+
+# POST string to variable conversion HOLDER (for when other headings are collapsed)
+
+## how to sum elements of an array
+
+### search terms
+sum js
+
+### Result
+- [How to find the sum of an array of numbers](https://stackoverflow.com/questions/1230233/how-to-find-the-sum-of-an-array-of-numbers)
+
+### Relevant prelude to Code
+"
+This'd be exactly the job for reduce.
+
+If you're using ECMAScript 2015 (aka ECMAScript 6):
+"
+
+### Code
+
+```
+const sum = [1, 2, 3].reduce((partialSum, a) => partialSum + a, 0);
+console.log(sum); // 6
+```
+
