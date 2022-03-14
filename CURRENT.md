@@ -34,7 +34,7 @@ and pseudocode file
 Also 
 
 move 
-take-user-input-2.js
+take-user-input.js
 
 into 
 
