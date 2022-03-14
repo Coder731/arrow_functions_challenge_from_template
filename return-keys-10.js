@@ -22,13 +22,7 @@ let students = [
 // mix in push to array from: 
 // https://www.codegrepper.com/code-examples/javascript/how+to+store+array.push+in+a+variable+javascript
 
-array = ["hello"]
-array.push("world");
-
-console.log(array);
-//output =>
-["hello", "world"]
-
+array = []
 
 // get english results
 for(var arrayStudentCount in students){
@@ -49,6 +43,8 @@ for(var arrayStudentCount in students){
                     for (var count in Object.keys(students[arrayStudentCount].results)) {
                         if (Object.keys(students[arrayStudentCount].results)[count] == "english") {
                             console.log(`students arrayCount jthProperty... valIsKeyValPair is: ${students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]}`);
+                            array.push(students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]);
+
                         }
                     }
                 }
@@ -56,5 +52,7 @@ for(var arrayStudentCount in students){
         }
     }
 }
+
+console.log(array);
 
 // get average
