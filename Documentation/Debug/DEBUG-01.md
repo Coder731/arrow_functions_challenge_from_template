@@ -133,3 +133,20 @@ ReferenceError: createInterface is not defined
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
 ```
+## 14Mar2022 0533h results variable scope bug
+
+### Steps to reproduce
+Add console log for subject variable outside block scope
+to test if available
+
+### Error in terminal:
+
+```
+What subject are you interested in?/workspace/arrow_functions_challenge_from_template/return-keys-3.js:37
+  console.log(`subject outside block scope: ${subject}`)
+                                              ^
+
+ReferenceError: subject is not defined
+    at Object.<anonymous> (/workspace/arrow_functions_challenge_from_template/return-keys-3.js:37:47)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+```
