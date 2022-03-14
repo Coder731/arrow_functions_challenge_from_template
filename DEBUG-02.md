@@ -42,4 +42,4 @@ Why is function returning this?
   as is the case when tyring to use
   strToVar function
   in
-  return-keys-7.js 
+  return-keys-7.js
