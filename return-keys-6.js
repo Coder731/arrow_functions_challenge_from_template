@@ -38,7 +38,19 @@ let input = 'english'
                 var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]; // this is actually counting through the letters in the name 'John' with each letter at a different count 
                 // console.log(sub_key2);
                 if (jthPropertyInStudentsI == "results") {
-                    console.log(studentObjPropValIsKeyValPair)
+                    console.log(studentObjPropValIsKeyValPair);
+                    if (studentObjPropValIsKeyValPair == "english") {
+                        // convert string to variable name
+                        // https://stackoverflow.com/questions/4602141/variable-name-as-a-string-in-javascript
+                        const varToString = varObj => Object.keys(varObj)[0]
+
+                        const someVar = 42
+                        const displayName = varToString({ someVar })
+                        console.log(displayName)
+                        // end converter
+
+                        console.log(`get score here for student number ${arrayStudentCount}, \n Score is: ${students[arrayStudentCount].results.displayName}`);
+                    }
                 }
             }
         }

@@ -20,3 +20,9 @@ students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPai
 0   "maths"
 1   "english"
 2   "cad"
+
+## 13:42:28 Monday, 14 March 2022
+
+### Lesson for future searches
+search for the abbreviated name of the variable you would store the thing you want as
+- This results in a fast, specific search; because using precise, concise search term.

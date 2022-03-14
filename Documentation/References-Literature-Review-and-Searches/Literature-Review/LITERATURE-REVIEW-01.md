@@ -41,9 +41,8 @@ how to return key in json
 
 
 
-# Post get json-object HOLDER (for when other headings are collapsed)
 
-### key value pairts are properties
+### key value pairs are properties
 
 #### Search terms
 key value pairs are properties in js object
@@ -56,3 +55,53 @@ key value pairs are properties in js object
 An object contains properties, or key-value pairs.
 "
 
+
+# POST key value pairs are properties HOLDER (for when other headings are collapsed)
+
+## variable to String conversion
+
+### Search string
+how to pass a string in order to specify the name of a variable in JavaScript
+
+### Result
+- [Variable name as a string in Javascript](https://stackoverflow.com/questions/4602141/variable-name-as-a-string-in-javascript)
+
+### Code
+
+```
+const varToString = varObj => Object.keys(varObj)[0]
+
+const someVar = 42
+const displayName = varToString({ someVar })
+console.log(displayName)
+
+```
+
+### Evaluation
+Converts the wrong way:
+goes from:
+variable to String
+want:
+string to Variable
+
+## string to variable conversion
+
+### Search string
+string to var js
+
+### Lesson for future searches
+search for the abbreviated name of the variable you would store the thing you want as
+- This results in a fast, specific search; because using precise, concise search term.
+
+### Result
+- [Convert string to variable name in JavaScript](https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-javascript)
+
+### Code
+
+```
+function SetToString(varString) {
+  var newValue = "string";
+  eval(varString + " = " + "'" + newValue + "'");
+}
+
+```
