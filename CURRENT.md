@@ -20,3 +20,23 @@ completed / not current
 
 ### Current Step (Move to PLAN-02.md when complete)
 
+## 02:17:30 Monday, 14 March 2022
+
+combine take-user-input-2.js
+
+with
+
+return-keys.js
+
+and pseudocode file
+
+
+Also 
+
+move take-user-input-2.js
+
+into 
+
+archived-files/working code archive
+
+rename last part and all files / folders from underscores to dashes
