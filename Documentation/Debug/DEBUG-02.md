@@ -31,5 +31,5 @@ english
 SetToString(studentObjPropValIsKeyValPair) is : undefined
 
 ### Attempt to solve
-WHy is function returning this?
+Why is function returning this?
 
