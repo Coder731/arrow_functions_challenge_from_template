@@ -87,9 +87,10 @@ const averagePoints = (arr, subject) => { // step 1. & 2.
         // console.log(`found : ${Object.values(found)}`);
         for (counter2 in Object.values(found)) {
             console.log(`Object.values(found)[counter2] : ${Object.values(found)[counter2]}`);
-            // if (typeof(Object.values(found)[counter2]) == Object) {
-            //     console.log("type is Object");
-            // }
+            console.log(`When counter2 is : ${counter2} typeof(Object.values(found)[counter2]) is : ${typeof(Object.values(found)[counter2])}`);
+            if (typeof(Object.values(found)[counter2]) == ("object")) { // should this be string "object" instead ?
+                console.log("type is Object");
+            }
         }
 
         // if (Object.keys(arr[i][j][counter]) == subject) {
