@@ -34,9 +34,9 @@ let input = 'english'
     for(var i in students){
         var key = i;
         var val = students[i];
-        for(var j in val){
-            var sub_key = j;
-            var sub_val = val[j];
+        for(var jthValueInStudentsI in val){
+            var sub_key = jthValueInStudentsI;
+            var sub_val = val[jthValueInStudentsI];
             // console.log(sub_key);
             for(var k in sub_val){
                 var sub_key2 = k;
@@ -48,4 +48,4 @@ let input = 'english'
             }
         }
     }
-    console.log(`students i j k is: ${students[i][j][k]}`);
+    console.log(`students i jth... k is: ${students[i][jthValueInStudentsI][k]}`);
