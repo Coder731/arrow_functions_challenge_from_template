@@ -21,7 +21,7 @@ let students = [
 
 let a = students;
 
-
+let subject;
 // take user input :
 // https://nodejs.dev/learn/accept-input-from-the-command-line-in-nodejs
 
@@ -36,7 +36,7 @@ const readline = require('readline').createInterface({
   })
 
 // Next line causes subject variable scope bug:
-//   console.log(`subject outside block scope: ${subject}`)
+  console.log(`subject outside block scope: ${subject}`)
 
 // pseudocode:
     // if (input == 'english') {
