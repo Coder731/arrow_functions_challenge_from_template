@@ -35,7 +35,7 @@ let input = 'english'
         for(var jthPropertyInStudentsI in students[arrayStudentCount]){
             for(var studentObjPropValIsKeyValPair in students[arrayStudentCount][jthPropertyInStudentsI]){
                 var sub_key2 = studentObjPropValIsKeyValPair;
-                var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair];
+                var sub_val2 = students[arrayStudentCount][jthPropertyInStudentsI][studentObjPropValIsKeyValPair]; // this is actually counting through the letters in the name 'John' with each letter at a different count 
                 console.log(sub_key2);
                 // if (sub_val2 == ) {
                     
