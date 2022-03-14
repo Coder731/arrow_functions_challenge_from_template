@@ -11,3 +11,11 @@ which outputs
 subjects
 using 
 students[i][j][k]
+
+## LOG-02.md
+brings up to point that can access lowest level key value pair
+
+## LOG-03.md
+Can begin to select for english
+as requested by 
+challenge
