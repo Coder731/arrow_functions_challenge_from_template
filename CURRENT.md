@@ -31,6 +31,9 @@ with
 return-keys.js                    - Complete
 
 and pseudocode file             - TO DO
+    - update
+        - do not take user input as
+            may then need to use callback(s)
 (in Documentation / Pseudocode)
 
 
