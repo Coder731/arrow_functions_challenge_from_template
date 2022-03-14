@@ -36,11 +36,11 @@ let input = 'english'
         // var val = students[i];
         for(var jthValueInStudentsI in students[i]){
             var sub_key = jthValueInStudentsI;
-            var sub_val = students[i][jthValueInStudentsI];
+            // var sub_val = students[i][jthValueInStudentsI];
             // console.log(sub_key);
-            for(var k in sub_val){
+            for(var k in students[i][jthValueInStudentsI]){
                 var sub_key2 = k;
-                var sub_val2 = sub_val[k];
+                var sub_val2 = students[i][jthValueInStudentsI][k];
                 console.log(sub_key2);
                 // if (sub_val2 == ) {
                     
