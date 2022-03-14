@@ -43,5 +43,16 @@ how to return key in json
 
 # Post get json-object HOLDER (for when other headings are collapsed)
 
-### 
+### key value pairts are properties
+
+#### Search terms
+key value pairs are properties in js object
+
+#### Result
+- [JavaScript Object Keys Tutorial – How to Use a JS Key-Value ...](https://www.freecodecamp.org/news/javascript-object-keys-tutorial-how-to-use-a-js-key-value-pair/#:~:text=An%20object%20contains%20properties%2C%20or,the%20value%20%224%20feet%22%20.)
+
+#### Text
+"
+An object contains properties, or key-value pairs.
+"
 
