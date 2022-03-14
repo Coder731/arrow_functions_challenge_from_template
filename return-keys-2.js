@@ -22,7 +22,7 @@ let students = [
 let a = students;
 
 
-
+// take user input :
 // https://nodejs.dev/learn/accept-input-from-the-command-line-in-nodejs
 
 const readline = require('readline').createInterface({
