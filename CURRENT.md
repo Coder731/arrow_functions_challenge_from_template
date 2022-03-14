@@ -24,13 +24,13 @@ completed / not current
 
 move return-keys.js to top folder - Complete
 
-combine take-user-input-2.js
+combine take-user-input-2.js        - Complete
 
 with
 
-return-keys.js
+return-keys.js                    - Complete
 
-and pseudocode file
+and pseudocode file             - TO DO
 
 
 
