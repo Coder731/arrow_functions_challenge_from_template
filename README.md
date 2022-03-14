@@ -18,7 +18,7 @@ Log values to the terminal
 
 Your result should look like the image below when the string "english" is passed into the function
 
-78.5
+77.5
 
 ## "Pre-requisites"
 
